@@ -17,7 +17,7 @@
   <meta property="og:title" content="Instalasi SmartHome & Rumah Pintar di Jambi - LABABIL SOLUTION">
   <meta property="og:description" content="Instalasi sistem SmartHome & otomasi rumah pintar di Jambi. Home automation, smart lighting, smart security oleh LABABIL SOLUTION. Rumah modern & efisien teknologi IoT terdepan!">
   <meta property="og:image" content="logo.png">
-  <meta property="og:url" content="https://lababilsolution.com/smarthome.html">
+  <meta property="og:url" content="https://lababil-smarthome.my.id/smarthome.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="LABABIL SOLUTION">
   <meta property="og:locale" content="id_ID">
@@ -33,22 +33,36 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: #2f3640;
+      background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%);
+      color: #cccccc;
       min-height: 100vh;
     }
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://images.unsplash.com/photo-1519558260268-cde7e03a0152?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      opacity: 0.5;
+      z-index: -1;
+    }
     .header {
-      background: rgba(255,255,255,0.1);
+      background: rgba(0,0,0,0.1);
       backdrop-filter: blur(20px);
       padding: 25px 20px;
       text-align: center;
-      border-bottom: 1px solid rgba(255,255,255,0.2);
+      border-bottom: 1px solid rgba(0,0,0,0.2);
     }
     .header h1 {
       margin: 0 0 10px 0;
       font-size: 2.5rem;
       color: white;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
       display: inline-flex;
       align-items: center;
       gap: 10px;
@@ -64,7 +78,7 @@
       font-size: 1.2rem;
     }
     nav {
-      background: rgba(255,255,255,0.15);
+      background: rgba(0,0,0,0.15);
       backdrop-filter: blur(20px);
       padding: 15px;
       text-align: center;
@@ -73,17 +87,17 @@
       z-index: 100;
     }
     nav a {
-      color: white;
+      color: #cccccc;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
       padding: 8px 15px;
       border-radius: 20px;
       transition: all 0.3s ease;
-      background: rgba(255,255,255,0.1);
+      background: rgba(0,0,0,0.1);
     }
     nav a:hover, nav a.active {
-      background: rgba(255,255,255,0.3);
+      background: rgba(0,0,0,0.3);
       transform: translateY(-2px);
     }
     .container {
@@ -92,19 +106,19 @@
       padding: 0 20px;
     }
     .hero {
-      background: rgba(255,255,255,0.1);
+      background: rgba(0,0,0,0.1);
       backdrop-filter: blur(20px);
       border-radius: 20px;
       color: white;
       text-align: center;
       padding: 60px 30px;
       margin: 30px 0;
-      border: 1px solid rgba(255,255,255,0.2);
+      border: 1px solid rgba(0,0,0,0.2);
     }
     .hero h2 {
       font-size: 2.8rem;
       margin-bottom: 20px;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     }
     .hero p {
       font-size: 1.3rem;
@@ -114,28 +128,28 @@
     }
     .cta-button {
       display: inline-block;
-      background: linear-gradient(135deg, #e17055, #f39c12);
+      background: #666666;
       color: white;
       padding: 18px 35px;
       border-radius: 50px;
       text-decoration: none;
       font-weight: bold;
       font-size: 1.2rem;
-      box-shadow: 0 8px 25px rgba(225,112,85,0.4);
+      box-shadow: 0 8px 25px rgba(102,102,102,0.4);
       transition: all 0.3s ease;
     }
     .cta-button:hover {
-      background: linear-gradient(135deg, #d63031, #e17055);
+      background: #999999;
       transform: translateY(-5px);
-      box-shadow: 0 15px 35px rgba(225,112,85,0.6);
+      box-shadow: 0 15px 35px rgba(153,153,153,0.6);
     }
     .content-section {
-      background: rgba(255,255,255,0.95);
+      background: rgba(0,0,0,0.95);
       backdrop-filter: blur(20px);
       border-radius: 20px;
       padding: 40px 30px;
       margin: 30px 0;
-      border: 1px solid rgba(255,255,255,0.3);
+      border: 1px solid rgba(0,0,0,0.3);
     }
     .features-grid {
       display: grid;
@@ -144,7 +158,7 @@
       margin-top: 30px;
     }
     .feature-card {
-      background: linear-gradient(135deg, #667eea, #764ba2);
+      background: linear-gradient(135deg, #666666, #999999);
       color: white;
       border-radius: 20px;
       padding: 30px;
@@ -166,7 +180,7 @@
     }
     .feature-card:hover {
       transform: translateY(-10px) scale(1.02);
-      box-shadow: 0 20px 40px rgba(102,126,234,0.4);
+      box-shadow: 0 20px 40px rgba(102,102,102,0.4);
     }
     .feature-icon {
       width: 80px;
@@ -194,7 +208,7 @@
       opacity: 0.95;
     }
     .packages-section {
-      background: rgba(255,255,255,0.95);
+      background: rgba(0,0,0,0.95);
       backdrop-filter: blur(20px);
       border-radius: 20px;
       padding: 40px 30px;
@@ -207,7 +221,7 @@
       margin-top: 30px;
     }
     .package-card {
-      background: white;
+      background: #1e1e1e;
       border-radius: 20px;
       padding: 30px;
       text-align: center;
@@ -219,10 +233,10 @@
     .package-card:hover {
       transform: translateY(-10px);
       box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-      border-color: #667eea;
+      border-color: #666666;
     }
     .package-card.premium {
-      border-color: #f39c12;
+      border-color: #999999;
       transform: scale(1.05);
       position: relative;
     }
@@ -232,22 +246,22 @@
       top: -10px;
       left: 50%;
       transform: translateX(-50%);
-      background: linear-gradient(135deg, #f39c12, #e17055);
+      background: linear-gradient(135deg, #999999, #666666);
       color: white;
       padding: 8px 25px;
       border-radius: 20px;
       font-size: 12px;
       font-weight: bold;
-      box-shadow: 0 5px 15px rgba(243,156,18,0.4);
+      box-shadow: 0 5px 15px rgba(153,153,153,0.4);
     }
     .package-price {
       font-size: 2.5rem;
       font-weight: bold;
-      color: #667eea;
+      color: #666666;
       margin: 20px 0;
     }
     .package-price.premium {
-      color: #f39c12;
+      color: #999999;
     }
     .package-features {
       list-style: none;
@@ -269,7 +283,7 @@
       font-size: 1.2rem;
     }
     .tech-showcase {
-      background: rgba(255,255,255,0.95);
+      background: rgba(0,0,0,0.95);
       backdrop-filter: blur(20px);
       border-radius: 20px;
       padding: 40px 30px;
@@ -282,7 +296,7 @@
       margin-top: 30px;
     }
     .tech-item {
-      background: linear-gradient(135deg, #74b9ff, #0984e3);
+      background: linear-gradient(135deg, #666666, #999999);
       color: white;
       padding: 25px;
       border-radius: 15px;
@@ -291,15 +305,15 @@
     }
     .tech-item:hover {
       transform: translateY(-5px) rotate(2deg);
-      box-shadow: 0 15px 30px rgba(116,185,255,0.4);
+      box-shadow: 0 15px 30px rgba(102,102,102,0.4);
     }
     .contact-form {
-      background: rgba(255,255,255,0.95);
+      background: rgba(0,0,0,0.95);
       backdrop-filter: blur(20px);
       border-radius: 20px;
       padding: 40px 30px;
       margin: 30px 0;
-      border: 1px solid rgba(255,255,255,0.3);
+      border: 1px solid rgba(0,0,0,0.3);
     }
     .form-grid {
       display: grid;
@@ -317,31 +331,31 @@
       display: block;
       margin-bottom: 8px;
       font-weight: bold;
-      color: #273c75;
+      color: #1e1e1e;
     }
-    .form-group input, 
-    .form-group select, 
+    .form-group input,
+    .form-group select,
     .form-group textarea {
       width: 100%;
       padding: 15px;
-      border: 2px solid rgba(102,126,234,0.3);
+      border: 2px solid rgba(102,102,102,0.3);
       border-radius: 12px;
       font-size: 1rem;
       transition: all 0.3s ease;
       box-sizing: border-box;
       background: rgba(255,255,255,0.9);
     }
-    .form-group input:focus, 
-    .form-group select:focus, 
+    .form-group input:focus,
+    .form-group select:focus,
     .form-group textarea:focus {
-      border-color: #667eea;
+      border-color: #666666;
       outline: none;
-      box-shadow: 0 0 15px rgba(102,126,234,0.3);
+      box-shadow: 0 0 15px rgba(102,102,102,0.3);
       background: white;
     }
     .submit-btn {
       width: 100%;
-      background: linear-gradient(135deg, #667eea, #764ba2);
+      background: linear-gradient(135deg, #666666, #999999);
       color: white;
       padding: 18px;
       border: none;
@@ -352,18 +366,18 @@
       transition: all 0.3s ease;
     }
     .submit-btn:hover {
-      background: linear-gradient(135deg, #764ba2, #667eea);
+      background: linear-gradient(135deg, #999999, #666666);
       transform: translateY(-3px);
-      box-shadow: 0 10px 25px rgba(102,126,234,0.6);
+      box-shadow: 0 10px 25px rgba(153,153,153,0.6);
     }
     .footer {
-      background: rgba(255,255,255,0.1);
+      background: rgba(0,0,0,0.1);
       backdrop-filter: blur(20px);
       color: white;
       text-align: center;
       padding: 30px;
       margin-top: 50px;
-      border-top: 1px solid rgba(255,255,255,0.2);
+      border-top: 1px solid rgba(0,0,0,0.2);
     }
     .whatsapp-float {
       position: fixed;
@@ -371,12 +385,12 @@
       height: 70px;
       bottom: 30px;
       right: 30px;
-      background: linear-gradient(135deg, #25d366, #128c7e);
+      background: #666666;
       color: white;
       border-radius: 50%;
       text-align: center;
       font-size: 35px;
-      box-shadow: 0 8px 25px rgba(37,211,102,0.4);
+      box-shadow: 0 8px 25px rgba(102,102,102,0.4);
       z-index: 1000;
       display: flex;
       align-items: center;
@@ -387,12 +401,12 @@
     }
     .whatsapp-float:hover {
       transform: scale(1.1) rotate(10deg);
-      box-shadow: 0 15px 35px rgba(37,211,102,0.6);
+      box-shadow: 0 15px 35px rgba(153,153,153,0.6);
     }
     @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
-      70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+      0% { box-shadow: 0 0 0 0 rgba(102, 102, 102, 0.7); }
+      70% { box-shadow: 0 0 0 15px rgba(102, 102, 102, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(102, 102, 102, 0); }
     }
     @media (max-width: 768px) {
       .hero h2 { font-size: 2rem; }
@@ -421,6 +435,7 @@
     <a href="listrik.html">⚡ Listrik</a>
     <a href="listrik.html#ac">❄️ AC</a>
     <a href="smarthome.html" class="active">🏠 SmartHome</a>
+    <a href="sitemap.html">🗺️ Sitemap</a>
   </nav>
 
   <div class="container">
@@ -431,7 +446,7 @@
     </section>
 
     <div class="content-section">
-      <h2 style="text-align: center; color: #273c75; font-size: 2.5rem; margin-bottom: 30px;">🔥 Fitur SmartHome Unggulan</h2>
+      <h2 style="text-align: center; color: #1e1e1e; font-size: 2.5rem; margin-bottom: 30px;">🔥 Fitur SmartHome Unggulan</h2>
       <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon">💡</div>
@@ -467,7 +482,7 @@
     </div>
 
     <div class="tech-showcase">
-      <h2 style="text-align: center; color: #273c75; font-size: 2.5rem; margin-bottom: 20px;">⚙️ Teknologi yang Kami Gunakan</h2>
+      <h2 style="text-align: center; color: #1e1e1e; font-size: 2.5rem; margin-bottom: 20px;">⚙️ Teknologi yang Kami Gunakan</h2>
       <p style="text-align: center; color: #666; font-size: 1.2rem; margin-bottom: 30px;">Platform dan perangkat IoT terpercaya dari brand global</p>
       <div class="tech-grid">
         <div class="tech-item">
@@ -623,12 +638,12 @@
   <div class="footer">
     <p><strong>LABABIL SOLUTION</strong> - Spesialis SmartHome & Rumah Pintar Terdepan di Jambi</p>
     <p>📍 Perumahan Mutiara Selatan Blok M12 RT.19, Kenali Asam Bawah, Jambi</p>
-    <p>📱 <a href="https://wa.me/6282312235675" style="color: #25d366;">0823-1223-5675</a> | ✉️ <a href="mailto:info@lababilsolution.com" style="color: #74b9ff;">info@lababilsolution.com</a></p>
-    <p>© 2025 LABABIL SOLUTION | <a href="https://youtube.com/@l4" style="color: #ff6b6b;">🎥 YouTube Channel</a></p>
+    <p>📱 <a href="https://wa.me/628997499994" style="color: #25d366;">0899-7499-994</a> | ✉️ <a href="mailto:info@lababilsolution.com" style="color: #74b9ff;">info@lababilsolution.com</a></p>
+    <p>© 2025 LABABIL SOLUTION | <a href="https://youtube.com/@l4" style="color: #ff6b6b;">🎥 YouTube Channel</a> | <a href="sitemap.html" style="color: #ff6b6b;">🗺️ Sitemap</a></p>
   </div>
 
   <!-- Enhanced WhatsApp Float Button -->
-  <a href="https://wa.me/6282312235675" class="whatsapp-float" target="_blank" title="Konsultasi SmartHome via WhatsApp">
+  <a href="https://wa.me/628997499994" class="whatsapp-float" target="_blank" title="Konsultasi SmartHome via WhatsApp">
     💬
   </a>
 
@@ -664,7 +679,7 @@ Mohon survey gratis dan konsultasi lengkap untuk desain SmartHome yang sesuai ke
 
 Terima kasih! 🙏`;
       
-      const url = `https://wa.me/6282312235675?text=${encodeURIComponent(message)}`;
+      const url = `https://wa.me/628997499994?text=${encodeURIComponent(message)}`;
       window.open(url, "_blank");
     }
   </script>

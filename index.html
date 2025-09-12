@@ -14,12 +14,12 @@
   <meta name="geo.placename" content="Jambi">
   <meta name="geo.position" content="-1.609972;103.607521">
   <meta name="ICBM" content="-1.609972, 103.607521">
-  <meta name="theme-color" content="#273c75">
-  <meta name="msapplication-TileColor" content="#273c75">
+  <meta name="theme-color" content="#333333">
+  <meta name="msapplication-TileColor" content="#333333">
   <meta name="msapplication-config" content="/browserconfig.xml">
-  <link rel="canonical" href="https://lababilsolution.com/">
-  <link rel="alternate" hreflang="id" href="https://lababilsolution.com/">
-  <link rel="alternate" hreflang="x-default" href="https://lababilsolution.com/">
+  <link rel="canonical" href="https://lababil-smarthome.my.id/">
+  <link rel="alternate" hreflang="id" href="https://lababil-smarthome.my.id/">
+  <link rel="alternate" hreflang="x-default" href="https://lababil-smarthome.my.id/">
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
   
   <!-- Google Search Console Verification (replace with your verification code) -->
@@ -45,7 +45,7 @@
   <meta property="og:title" content="LABABIL SOLUTION - Jasa Instalasi CCTV, Jaringan, Listrik, AC & SmartHome">
   <meta property="og:description" content="Solusi lengkap instalasi CCTV, jaringan internet, listrik, AC, dan SmartHome di Jambi. Teknisi profesional, garansi resmi, konsultasi gratis.">
   <meta property="og:image" content="logo.png">
-  <meta property="og:url" content="https://lababilsolution.com">
+  <meta property="og:url" content="https://lababil-smarthome.my.id">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="LABABIL SOLUTION">
   <meta property="og:locale" content="id_ID">
@@ -65,11 +65,11 @@
     "@type": "LocalBusiness",
     "name": "LABABIL SOLUTION",
     "description": "Jasa profesional instalasi CCTV, jaringan internet, listrik, AC, dan SmartHome di Jambi. Pelayanan terpercaya dengan teknisi berpengalaman.",
-    "url": "https://lababilsolution.com",
-    "logo": "https://lababilsolution.com/logo.png",
-    "image": "https://lababilsolution.com/logo.png",
-    "telephone": "+6282312235675",
-    "email": "info@lababilsolution.com",
+    "url": "https://lababil-smarthome.my.id",
+    "logo": "https://lababil-smarthome.my.id/logo.png",
+    "image": "https://lababil-smarthome.my.id/logo.png",
+    "telephone": "+628997499994",
+    "email": "lababil2307@gmail.com",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Perumahan Mutiara Selatan Blok M12 RT.19",
@@ -162,20 +162,35 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #f5f6fa;
-      color: #2f3640;
+      background: #1e1e1e;
+      color: #d0d0d0;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://images.unsplash.com/photo-1757593203597-161b96637ca4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      opacity: 0.3;
+      z-index: -1;
+      filter: grayscale(60%) brightness(50%);
     }
     header {
-      background: linear-gradient(135deg, #273c75, #40739e);
-      color: white;
+      background: linear-gradient(135deg, #2c2c2c, #4a4a4a);
+      color: #e0e0e0;
       padding: 30px 20px;
       text-align: center;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     }
     header h1 {
       margin: 0 0 10px 0;
       font-size: 2.5rem;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
       display: inline-flex;
       align-items: center;
       gap: 10px;
@@ -184,23 +199,24 @@
       height: 34px;
       width: auto;
       display: inline-block;
+      filter: brightness(0) invert(1);
     }
     header p {
       margin: 0;
       font-size: 1.2rem;
-      opacity: 0.9;
+      opacity: 0.8;
     }
     nav {
-      background: #40739e;
+      background: #3a3a3a;
       padding: 15px;
       text-align: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
       position: sticky;
       top: 0;
       z-index: 100;
     }
     nav a {
-      color: white;
+      color: #d0d0d0;
       margin: 0 20px;
       text-decoration: none;
       font-weight: bold;
@@ -210,7 +226,7 @@
       display: inline-block;
     }
     nav a:hover, nav a.active {
-      background: rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.1);
       transform: translateY(-2px);
     }
     section {
@@ -219,7 +235,7 @@
       margin: auto;
     }
     .hero {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #444444 0%, #222222 100%);
       color: white;
       text-align: center;
       padding: 80px 20px;
@@ -229,29 +245,29 @@
     .hero h2 {
       font-size: 2.5rem;
       margin-bottom: 20px;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
     }
     .hero p {
       font-size: 1.3rem;
       margin-bottom: 30px;
-      opacity: 0.95;
+      opacity: 0.85;
     }
     .cta-button {
       display: inline-block;
-      background: #27ae60;
+      background: #555555;
       color: white;
       padding: 15px 30px;
       border-radius: 50px;
       text-decoration: none;
       font-weight: bold;
       font-size: 1.1rem;
-      box-shadow: 0 5px 15px rgba(39,174,96,0.4);
+      box-shadow: 0 5px 15px rgba(85,85,85,0.4);
       transition: all 0.3s ease;
     }
     .cta-button:hover {
-      background: #2ecc71;
+      background: #777777;
       transform: translateY(-3px);
-      box-shadow: 0 8px 25px rgba(39,174,96,0.6);
+      box-shadow: 0 8px 25px rgba(119,119,119,0.6);
     }
     .services {
       display: grid;
@@ -260,24 +276,24 @@
       margin-top: 30px;
     }
     .card {
-      background: white;
+      background: #2a2a2a;
       border-radius: 15px;
       padding: 30px;
       text-align: center;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.7);
       transition: all 0.3s ease;
       border: 2px solid transparent;
       cursor: pointer;
     }
     .card:hover {
       transform: translateY(-10px);
-      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-      border-color: #40739e;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.9);
+      border-color: #555555;
     }
     .card-icon {
       width: 60px;
       height: 60px;
-      background: linear-gradient(135deg, #40739e, #273c75);
+      background: linear-gradient(135deg, #555555, #222222);
       border-radius: 50%;
       margin: 0 auto 20px;
       display: flex;
@@ -287,12 +303,12 @@
       color: white;
     }
     .card h3 {
-      color: #273c75;
+      color: #d0d0d0;
       margin-bottom: 15px;
       font-size: 1.4rem;
     }
     .card p {
-      color: #666;
+      color: #aaa;
       line-height: 1.6;
     }
     .testimonials {
@@ -302,18 +318,18 @@
       margin-top: 30px;
     }
     .testimonial {
-      background: white;
+      background: #2a2a2a;
       border-radius: 15px;
       padding: 25px;
       font-style: italic;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      box-shadow: 0 5px 20px rgba(0,0,0,0.7);
       position: relative;
-      border-left: 4px solid #27ae60;
+      border-left: 4px solid #555555;
     }
     .testimonial::before {
       content: '"';
       font-size: 60px;
-      color: #27ae60;
+      color: #555555;
       position: absolute;
       top: -10px;
       left: 15px;
@@ -322,11 +338,11 @@
     .testimonial-author {
       margin-top: 15px;
       font-weight: bold;
-      color: #273c75;
+      color: #d0d0d0;
       font-style: normal;
     }
     .contact-section {
-      background: linear-gradient(135deg, #2c3e50, #34495e);
+      background: linear-gradient(135deg, #1a1a1a, #333333);
       color: white;
       text-align: center;
       margin: 0;
@@ -339,63 +355,65 @@
       margin-top: 30px;
     }
     .contact-item {
-      background: rgba(255,255,255,0.1);
+      background: rgba(255,255,255,0.05);
       padding: 25px;
       border-radius: 15px;
       backdrop-filter: blur(10px);
     }
     .contact-item h4 {
       margin: 0 0 10px 0;
-      color: #ecf0f1;
+      color: #ccc;
     }
     .contact-item a {
-      color: #3498db;
+      color: #7abaff;
       text-decoration: none;
       font-weight: bold;
     }
     .contact-item a:hover {
-      color: #5dade2;
+      color: #a3c9ff;
     }
     form {
-      background: white;
+      background: #2a2a2a;
       padding: 30px;
       border-radius: 15px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.7);
       display: flex;
       flex-direction: column;
       gap: 20px;
       max-width: 600px;
       margin: 30px auto;
-      color: #2f3640;
+      color: #d0d0d0;
     }
     input, textarea, button {
       padding: 15px;
       border-radius: 10px;
-      border: 2px solid #dcdde1;
+      border: 2px solid #444444;
       font-size: 1rem;
       transition: all 0.3s ease;
+      background: #1e1e1e;
+      color: #d0d0d0;
     }
     input:focus, textarea:focus {
-      border-color: #40739e;
+      border-color: #777777;
       outline: none;
-      box-shadow: 0 0 10px rgba(64,115,158,0.3);
+      box-shadow: 0 0 10px rgba(119,119,119,0.5);
     }
     button {
-      background: #40739e;
+      background: #555555;
       color: white;
       font-weight: bold;
       cursor: pointer;
       border: none;
-      box-shadow: 0 5px 15px rgba(64,115,158,0.4);
+      box-shadow: 0 5px 15px rgba(85,85,85,0.6);
     }
     button:hover {
-      background: #273c75;
+      background: #777777;
       transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(64,115,158,0.6);
+      box-shadow: 0 8px 25px rgba(119,119,119,0.8);
     }
     footer {
-      background: #273c75;
-      color: white;
+      background: #2c2c2c;
+      color: #d0d0d0;
       text-align: center;
       padding: 30px;
       margin-top: 0;
@@ -461,6 +479,7 @@
     <a href="#testimoni">Testimoni</a>
     <a href="#konsultasi">Konsultasi</a>
     <a href="#kontak">Kontak</a>
+    <a href="sitemap.html">🗺️ Sitemap</a>
   </nav>
 
   <section class="hero">
@@ -551,7 +570,7 @@
         const email = document.getElementById("emailWA").value;
         const layanan = document.getElementById("layananWA").value;
         const pesan = document.getElementById("pesanWA").value;
-        const url = `https://wa.me/6282312235675?text=Halo%20LABABIL%20SOLUTION,%0A%0ANama:%20${encodeURIComponent(nama)}%0AEmail:%20${encodeURIComponent(email)}%0ALayanan:%20${encodeURIComponent(layanan)}%0APesan:%20${encodeURIComponent(pesan)}%0A%0ATerima%20kasih!`;
+        const url = `https://wa.me/628997499994?text=Halo%20LABABIL%20SOLUTION,%0A%0ANama:%20${encodeURIComponent(nama)}%0AEmail:%20${encodeURIComponent(email)}%0ALayanan:%20${encodeURIComponent(layanan)}%0APesan:%20${encodeURIComponent(pesan)}%0A%0ATerima%20kasih!`;
         window.open(url, "_blank");
       }
       
@@ -568,12 +587,12 @@
       </div>
       <div class="contact-item">
         <h4>📱 WhatsApp</h4>
-        <p><a href="https://wa.me/6282312235675">0823-1223-5675</a></p>
+        <p><a href="https://wa.me/628997499994">0899-7499-994</a></p>
         <small>Tersedia 24/7 untuk konsultasi</small>
       </div>
       <div class="contact-item">
         <h4>✉️ Email</h4>
-        <p><a href="mailto:info@lababilsolution.com">info@lababilsolution.com</a></p>
+        <p><a href="mailto:lababil2307@gmail.com">info@lababilsolution.com</a></p>
         <small>Respons dalam 1 jam kerja</small>
       </div>
     </div>
@@ -582,12 +601,13 @@
   <footer>
     <p><strong>© 2025 LABABIL SOLUTION</strong> | Dibuat dengan ❤️ di Jambi</p>
     <p>⭐ Rating 5.0 dari 100+ pelanggan puas</p>
-    <p><a href="https://youtube.com/@l4" target="_blank">📺 YouTube Kami</a> | 
-       <a href="https://wa.me/6282312235675">💬 WhatsApp</a></p>
+    <p><a href="https://youtube.com/@l4b4bil?si=lU1PfugH4qm3-KF2" target="_blank">📺 YouTube Kami</a> |
+       <a href="https://wa.me/628997499994">💬 WhatsApp</a> |
+       <a href="sitemap.html">🗺️ Sitemap</a></p>
   </footer>
 
   <!-- WhatsApp Float Button -->
-  <a href="https://wa.me/6282312235675" class="whatsapp-float" target="_blank" title="Chat WhatsApp">
+  <a href="https://wa.me/628997499994" class="whatsapp-float" target="_blank" title="Chat WhatsApp">
     💬
   </a>
 

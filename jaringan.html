@@ -17,7 +17,7 @@
   <meta property="og:title" content="Jasa Instalasi Jaringan Internet & LAN di Jambi - LABABIL SOLUTION">
   <meta property="og:description" content="Layanan instalasi jaringan internet & LAN di Jambi. Setting router, switch, troubleshooting jaringan oleh teknisi LABABIL SOLUTION. Jaringan stabil & cepat untuk rumah dan kantor!">
   <meta property="og:image" content="logo.png">
-  <meta property="og:url" content="https://lababilsolution.com/jaringan.html">
+  <meta property="og:url" content="https://lababil-smarthome.my.id/jaringan.html">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="LABABIL SOLUTION">
   <meta property="og:locale" content="id_ID">
@@ -34,19 +34,33 @@
       font-family: Arial, sans-serif;
       margin: 0;
       background: #f5f6fa;
-      color: #2f3640;
+      color: #666666;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      opacity: 0.5;
+      z-index: -1;
     }
     header {
-      background: linear-gradient(135deg, #273c75, #40739e);
+      background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
       color: white;
       padding: 25px 20px;
       text-align: center;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     }
     header h1 {
       margin: 0 0 10px 0;
       font-size: 2.2rem;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
       display: inline-flex;
       align-items: center;
       gap: 10px;
@@ -57,16 +71,16 @@
       display: inline-block;
     }
     nav {
-      background: #40739e;
+      background: #2a2a2a;
       padding: 15px;
       text-align: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
       position: sticky;
       top: 0;
       z-index: 100;
     }
     nav a {
-      color: white;
+      color: #cccccc;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
@@ -75,11 +89,11 @@
       transition: all 0.3s ease;
     }
     nav a:hover, nav a.active {
-      background: rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.1);
       transform: translateY(-2px);
     }
     .hero {
-      background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+      background: linear-gradient(135deg, #4a4a4a 0%, #2c2c2c 100%);
       color: white;
       text-align: center;
       padding: 60px 20px;
@@ -87,7 +101,7 @@
     .hero h2 {
       font-size: 2.5rem;
       margin-bottom: 20px;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
     }
     .hero p {
       font-size: 1.2rem;
@@ -99,20 +113,20 @@
     }
     .cta-button {
       display: inline-block;
-      background: #e17055;
+      background: #666666;
       color: white;
       padding: 15px 30px;
       border-radius: 50px;
       text-decoration: none;
       font-weight: bold;
       font-size: 1.1rem;
-      box-shadow: 0 5px 15px rgba(225,112,85,0.4);
+      box-shadow: 0 5px 15px rgba(102,102,102,0.4);
       transition: all 0.3s ease;
     }
     .cta-button:hover {
-      background: #d63031;
+      background: #999999;
       transform: translateY(-3px);
-      box-shadow: 0 8px 25px rgba(225,112,85,0.6);
+      box-shadow: 0 8px 25px rgba(153,153,153,0.6);
     }
     section {
       padding: 50px 20px;
@@ -137,12 +151,12 @@
     .service-card:hover {
       transform: translateY(-10px);
       box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-      border-color: #00b894;
+      border-color: #666666;
     }
     .service-icon {
       width: 70px;
       height: 70px;
-      background: linear-gradient(135deg, #00b894, #00cec9);
+      background: linear-gradient(135deg, #666666, #999999);
       border-radius: 50%;
       margin: 0 auto 20px;
       display: flex;
@@ -152,7 +166,7 @@
       color: white;
     }
     .service-card h3 {
-      color: #273c75;
+      color: #1e1e1e;
       margin-bottom: 15px;
       font-size: 1.4rem;
     }
@@ -161,7 +175,7 @@
       line-height: 1.6;
     }
     .features-section {
-      background: linear-gradient(135deg, #2d3436, #636e72);
+      background: linear-gradient(135deg, #2c2c2c, #4a4a4a);
       color: white;
       margin: 0;
       max-width: none;
@@ -183,10 +197,10 @@
     }
     .feature-item:hover {
       transform: translateY(-5px);
-      border-color: #00b894;
+      border-color: #666666;
     }
     .feature-item h4 {
-      color: #00cec9;
+      color: #cccccc;
       margin-bottom: 10px;
       font-size: 1.2rem;
     }
@@ -210,10 +224,10 @@
     }
     .price-card:hover {
       transform: translateY(-5px);
-      border-color: #00b894;
+      border-color: #666666;
     }
     .price-card.popular {
-      border-color: #e17055;
+      border-color: #999999;
       transform: scale(1.05);
     }
     .price-card.popular::before {
@@ -222,7 +236,7 @@
       top: -10px;
       left: 50%;
       transform: translateX(-50%);
-      background: #e17055;
+      background: #999999;
       color: white;
       padding: 5px 20px;
       border-radius: 15px;
@@ -232,7 +246,7 @@
     .price {
       font-size: 2rem;
       font-weight: bold;
-      color: #00b894;
+      color: #666666;
       margin: 15px 0;
     }
     .price-features {
@@ -246,7 +260,7 @@
     }
     .price-features li:before {
       content: "✓ ";
-      color: #00b894;
+      color: #666666;
       font-weight: bold;
     }
     .contact-form {
@@ -264,10 +278,10 @@
       display: block;
       margin-bottom: 8px;
       font-weight: bold;
-      color: #273c75;
+      color: #1e1e1e;
     }
-    .form-group input, 
-    .form-group select, 
+    .form-group input,
+    .form-group select,
     .form-group textarea {
       width: 100%;
       padding: 12px;
@@ -277,16 +291,16 @@
       transition: all 0.3s ease;
       box-sizing: border-box;
     }
-    .form-group input:focus, 
-    .form-group select:focus, 
+    .form-group input:focus,
+    .form-group select:focus,
     .form-group textarea:focus {
-      border-color: #00b894;
+      border-color: #666666;
       outline: none;
-      box-shadow: 0 0 10px rgba(0,184,148,0.3);
+      box-shadow: 0 0 10px rgba(102,102,102,0.3);
     }
     .submit-btn {
       width: 100%;
-      background: #00b894;
+      background: #666666;
       color: white;
       padding: 15px;
       border: none;
@@ -297,19 +311,19 @@
       transition: all 0.3s ease;
     }
     .submit-btn:hover {
-      background: #00a085;
+      background: #999999;
       transform: translateY(-2px);
-      box-shadow: 0 8px 25px rgba(0,184,148,0.6);
+      box-shadow: 0 8px 25px rgba(153,153,153,0.6);
     }
     footer {
-      background: #273c75;
+      background: #1e1e1e;
       color: white;
       text-align: center;
       padding: 30px;
       margin-top: 0;
     }
     footer a {
-      color: #fbc531;
+      color: #999999;
       text-decoration: none;
       font-weight: bold;
     }
@@ -319,7 +333,7 @@
       height: 60px;
       bottom: 30px;
       right: 30px;
-      background-color: #25d366;
+      background-color: #666666;
       color: white;
       border-radius: 50px;
       text-align: center;
@@ -334,13 +348,13 @@
       animation: pulse 2s infinite;
     }
     .whatsapp-float:hover {
-      background-color: #128c7e;
+      background-color: #999999;
       transform: scale(1.1);
     }
     @keyframes pulse {
-      0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
-      70% { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
-      100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+      0% { box-shadow: 0 0 0 0 rgba(102, 102, 102, 0.7); }
+      70% { box-shadow: 0 0 0 10px rgba(102, 102, 102, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(102, 102, 102, 0); }
     }
     @media (max-width: 768px) {
       .hero h2 { font-size: 2rem; }
@@ -367,6 +381,7 @@
     <a href="listrik.html">⚡ Listrik</a>
     <a href="listrik.html#ac">❄️ AC</a>
     <a href="smarthome.html">🏠 SmartHome</a>
+    <a href="sitemap.html">🗺️ Sitemap</a>
   </nav>
 
   <section class="hero">
@@ -376,7 +391,7 @@
   </section>
 
   <section>
-    <h2 style="text-align: center; color: #273c75; font-size: 2.2rem; margin-bottom: 20px;">💻 Layanan Jaringan Kami</h2>
+    <h2 style="text-align: center; color: #1e1e1e; font-size: 2.2rem; margin-bottom: 20px;">💻 Layanan Jaringan Kami</h2>
     <div class="services-grid">
       <div class="service-card">
         <div class="service-icon">🖥️</div>
@@ -412,7 +427,7 @@
   </section>
 
   <section class="features-section">
-    <h2 style="font-size: 2.2rem; margin-bottom: 20px;">⚡ Keunggulan Jaringan Kami</h2>
+    <h2 style="font-size: 2.2rem; margin-bottom: 20px; color: #cccccc;">⚡ Keunggulan Jaringan Kami</h2>
     <div class="features-grid">
       <div class="feature-item">
         <h4>🚀 Kecepatan Tinggi</h4>
@@ -434,14 +449,14 @@
   </section>
 
   <section class="price-section">
-    <h2 style="text-align: center; color: #273c75; font-size: 2.2rem; margin-bottom: 20px;">💰 Paket Harga Jaringan</h2>
+    <h2 style="text-align: center; color: #1e1e1e; font-size: 2.2rem; margin-bottom: 20px;">💰 Paket Harga Jaringan</h2>
     <p style="text-align: center; font-size: 1.1rem;">Pilih paket yang sesuai dengan kebutuhan jaringan Anda</p>
     <div class="price-grid">
       <div class="price-card">
-        <h3>🏠 Paket Rumah</h3>
+        <h3>🏠 Instalasi Jaringan Rumah</h3>
         <div class="price">Rp 1,5 Juta</div>
         <ul class="price-features">
-          <li>Router WiFi Dual Band</li>
+          <li>Penambahan Akses Poitn</li>
           <li>Setting dan Konfigurasi</li>
           <li>Optimasi Kecepatan</li>
           <li>Security Setup</li>
@@ -450,12 +465,12 @@
         </ul>
       </div>
       <div class="price-card popular">
-        <h3>🏢 Paket Kantor</h3>
+        <h3>🏢 Instalasi Jaringan Kantor</h3>
         <div class="price">Rp 4,5 Juta</div>
         <ul class="price-features">
-          <li>Instalasi LAN 20 Port</li>
-          <li>WiFi Enterprise 2 AP</li>
-          <li>Managed Switch 24 Port</li>
+          <li>Instalasi LAN</li>
+          <li>WiFi Enterprise</li>
+          <li>Managed Switch</li>
           <li>Router Business Grade</li>
           <li>Network Security</li>
           <li>Monitoring System</li>
@@ -480,7 +495,7 @@
   </section>
 
   <section>
-    <h2 style="text-align: center; color: #273c75; font-size: 2.2rem; margin-bottom: 20px;">📋 Konsultasi & Pemesanan Jaringan</h2>
+    <h2 style="text-align: center; color: #1e1e1e; font-size: 2.2rem; margin-bottom: 20px;">📋 Konsultasi & Pemesanan Jaringan</h2>
     <div class="contact-form">
       <form onsubmit="sendNetworkInquiry(event)">
         <div class="form-group">
@@ -529,12 +544,12 @@
   <footer>
     <p><strong>LABABIL SOLUTION</strong> - Spesialis Jaringan Internet Terpercaya di Jambi</p>
     <p>📍 Perumahan Mutiara Selatan Blok M12 RT.19, Kenali Asam Bawah, Jambi</p>
-    <p>📱 <a href="https://wa.me/6282312235675">0823-1223-5675</a> | ✉️ <a href="mailto:info@lababilsolution.com">info@lababilsolution.com</a></p>
-    <p>© 2025 LABABIL SOLUTION | <a href="https://youtube.com/@l4">YouTube</a></p>
+    <p>📱 <a href="https://wa.me/628997499994">0899-7499-994</a> | ✉️ <a href="mailto:info@lababilsolution.com">info@lababilsolution.com</a></p>
+    <p>© 2025 LABABIL SOLUTION | <a href="https://youtube.com/@l4">YouTube</a> | <a href="sitemap.html">Sitemap</a></p>
   </footer>
 
   <!-- WhatsApp Float Button -->
-  <a href="https://wa.me/6282312235675" class="whatsapp-float" target="_blank" title="Chat WhatsApp Jaringan">
+  <a href="https://wa.me/628997499994" class="whatsapp-float" target="_blank" title="Chat WhatsApp Jaringan">
     💬
   </a>
 
@@ -562,7 +577,7 @@ Saya tertarik dengan layanan instalasi jaringan:
 
 Mohon survey dan penawaran terbaik. Terima kasih!`;
       
-      const url = `https://wa.me/6282312235675?text=${encodeURIComponent(message)}`;
+      const url = `https://wa.me/628997499994?text=${encodeURIComponent(message)}`;
       window.open(url, "_blank");
     }
   </script>
