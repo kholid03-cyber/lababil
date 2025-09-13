@@ -6,7 +6,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://lababil-smarthome.my.id/</loc>
+    <loc>https://lababil-smarthome.my.id//</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
   <!-- CCTV Service Page -->
   <url>
-    <loc>https://lababil-smarthome.my.id/cctv.html</loc>
+    <loc>https://lababil-smarthome.my.id//cctv.html</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -22,7 +22,7 @@
 
   <!-- Network Service Page -->
   <url>
-    <loc>https://lababil-smarthome.my.id/jaringan.html</loc>
+    <loc>https://lababil-smarthome.my.id//jaringan.html</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -30,7 +30,7 @@
 
   <!-- Electrical Service Page -->
   <url>
-    <loc>https://lababil-smarthome.my.id/listrik.html</loc>
+    <loc>https://lababil-smarthome.my.id//listrik.html</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -38,7 +38,7 @@
 
   <!-- AC Service Page (Hash URL) -->
   <url>
-    <loc>https://lababil-smarthome.my.id/listrik.html#ac</loc>
+    <loc>https://lababil-smarthome.my.id//listrik.html#ac</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -46,199 +46,10 @@
 
   <!-- SmartHome Service Page -->
   <url>
-    <loc>https://lababil-smarthome.my.id/smarthome.html</loc>
-    <lastmod>2025-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-</urlset><?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <!-- Halaman Utama -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/</loc>
-      <lastmod>2025-09-13</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-   </url>
-   
-   <!-- Halaman Tentang -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/tentang/</loc>
-      <lastmod>2025-09-10</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   
-   <!-- Halaman Produk/Layanan -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/produk/</loc>
-      <lastmod>2025-09-12</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-   </url>
-   
-   <!-- Kategori Produk Smart Home -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/produk/smart-lighting/</loc>
-      <lastmod>2025-09-11</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-   </url>
-   
-   <url>
-      <loc>https://lababil-smarthome.my.id/produk/smart-security/</loc>
-      <lastmod>2025-09-11</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-   </url>
-   
-   <url>
-      <loc>https://lababil-smarthome.my.id/produk/smart-thermostat/</loc>
-      <lastmod>2025-09-11</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-   </url>
-   
-   <url>
-      <loc>https://lababil-smarthome.my.id/produk/smart-speaker/</loc>
-      <lastmod>2025-09-11</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-   </url>
-   
-   <!-- Halaman Layanan -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/layanan/</loc>
-      <lastmod>2025-09-10</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   
-   <url>
-      <loc>https://lababil-smarthome.my.id/layanan/instalasi/</loc>
-      <lastmod>2025-09-10</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
-   </url>
-   
-   <url>
-      <loc>https://lababil-smarthome.my.id/layanan/konsultasi/</loc>
-      <lastmod>2025-09-10</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
-   </url>
-   
-   <!-- Halaman Blog/Artikel -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/blog/</loc>
-      <lastmod>2025-09-13</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-   </url>
-   
-   <url>
-      <loc>https://lababil-smarthome.my.id/blog/tips-smart-home/</loc>
-      <lastmod>2025-09-12</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-   </url>
-   
-   <url>
-      <loc>https://lababil-smarthome.my.id/blog/teknologi-terbaru/</loc>
-      <lastmod>2025-09-11</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-   </url>
-   
-   <!-- Halaman Kontak -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/kontak/</loc>
-      <lastmod>2025-09-10</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
-   </url>
-   
-   <!-- Halaman FAQ -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/faq/</loc>
-      <lastmod>2025-09-09</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-   </url>
-   
-   <!-- Halaman Galeri -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/galeri/</loc>
-      <lastmod>2025-09-12</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-   
-   <!-- Halaman Testimoni -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/testimoni/</loc>
-      <lastmod>2025-09-11</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.6</priority>
-   </url>
-   
-   <!-- Halaman Kebijakan -->
-   <url>
-      <loc>https://lababil-smarthome.my.id/kebijakan-privasi/</loc>
-      <lastmod>2025-09-01</lastmod>
-      <changefreq>yearly</changefreq>
-      <priority>0.3</priority>
-   </url>
-   
-   <url>
-      <loc>https://lababil-smarthome.my.id/syarat-ketentuan/</loc>
-      <lastmod>2025-09-01</lastmod>
-      <changefreq>yearly</changefreq>
-      <priority>0.3</priority>
-   </url>
-
-  <!-- CCTV Service Page -->
-  <url>
-    <loc>https://lababil-smarthome.my.id/cctv.html</loc>
-    <lastmod>2025-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Network Service Page -->
-  <url>
-    <loc>https://lababil-smarthome.my.id/jaringan.html</loc>
-    <lastmod>2025-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Electrical Service Page -->
-  <url>
-    <loc>https://lababil-smarthome.my.id/listrik.html</loc>
-    <lastmod>2025-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- AC Service Page (Hash URL) -->
-  <url>
-    <loc>https://lababil-smarthome.my.id/listrik.html#ac</loc>
-    <lastmod>2025-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- SmartHome Service Page -->
-  <url>
-    <loc>https://lababil-smarthome.my.id/smarthome.html</loc>
+    <loc>https://lababil-smarthome.my.id//smarthome.html</loc>
     <lastmod>2025-01-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
 </urlset>
-
-
-
